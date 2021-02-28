@@ -1,0 +1,45 @@
+.ServicesSection {
+  .service {
+    width: 85%;
+    background-color: #191d2b;
+    border-left: 1px solid #2e344e;
+    border-right: 1px solid #2e344e;
+    border-top: 10px solid #2e344e;
+    border-bottom: 1px solid #2e344e;
+    transition: all .4s ease-in-out;
+    &:hover {
+      border-top: 10px solid #037fff;
+    }
+
+    .service-content {
+      padding: 1rem;
+
+      .s-title {
+        font-size: 1.8rem;
+        font-weight: 500;
+        position: relative;
+        padding-bottom: 1rem;
+        margin: 1rem 0;
+        &::after {
+          content: "";
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 20%;
+          height: 1px;
+          background-color: #2e344e;
+        }
+      }
+    }
+
+    img {
+      height: 10rem;
+    }
+  }
+}
+
+.services-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem 0;
+}
