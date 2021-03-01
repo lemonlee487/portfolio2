@@ -5,6 +5,7 @@
 @import './styles/about';
 @import './styles/skill';
 @import './styles/service';
+@import './styles/interest';
 
 * {
   padding: 0;
@@ -16,6 +17,19 @@ body {
   color: #a4acc4;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 1.2rem;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #1861aa79;
+  border-radius: 50px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: #5d5f64;
 }
 
 span {

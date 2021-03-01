@@ -3,7 +3,10 @@ import Title from '../components/Title'
 import ImageSection from '../components/ImageSection'
 import SkillsSection from '../components/SkillsSection'
 import ServicesSection from '../components/ServicesSection'
-import avatar from '../images/avatar.png'
+import android from '../images/android.png'
+import deeplearn from '../images/deep-learning.png'
+import webdev from '../images/website.png'
+
 const AboutPage = () => {
   return (
     <div className="AboutPage">
@@ -16,24 +19,25 @@ const AboutPage = () => {
         <SkillsSection skill={'JavaScript'} progress={'57%'} widthParam={'57%'} />
         <SkillsSection skill={'React.js'} progress={'18%'} widthParam={'18%'} />
         <SkillsSection skill={'C++'} progress={'22%'} widthParam={'22%'} />
-        <SkillsSection skill={'Android Development'} progress={'68%'} widthParam={'68%'} />
-        <SkillsSection skill={'Machine Learning'} progress={'56%'} widthParam={'56%'} />
+        <SkillsSection skill={'Android Development'} progress={'45%'} widthParam={'68%'} />
+        <SkillsSection skill={'Machine Learning'} progress={'32%'} widthParam={'56%'} />
+        <SkillsSection skill={'Web Design'} progress={'26%'} widthParam={'56%'} />
       </div>
-      <Title title={'Favourite Novels'} span={'Favourite Novels'} />
+      <Title title={'Projects'} span={'Projects'} />
       <div className="services-container">
         <ServicesSection
-          image={avatar}
-          title={'転生したらスライムだった件'}
+          image={android}
+          title={'Android Development'}
           text={'Text'}
         />
         <ServicesSection
-          image={avatar}
-          title={'この素晴らしい世界に祝福を!'}
+          image={deeplearn}
+          title={'Deep Learning'}
           text={'Text'}
         />
         <ServicesSection
-          image={avatar}
-          title={'ようこそ実力至上主義の教室へ'}
+          image={webdev}
+          title={'Web Design'}
           text={'Text'}
         />
       </div>

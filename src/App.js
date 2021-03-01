@@ -3,6 +3,7 @@ import NavBar from './components/NavBar'
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
 import PortfolioPage from './pages/PortfolioPage'
+import InterestPage from './pages/InterestPage'
 import ContactPage from './pages/ContactPage'
 import { Switch, Route } from 'react-router-dom'
 
@@ -24,6 +25,9 @@ function App() {
             </Route>
             <Route path="/portfolios" exact>
               <PortfolioPage />
+            </Route>
+            <Route path="/interests" exact>
+              <InterestPage />
             </Route>
             <Route path="/contact" exact>
               <ContactPage />
