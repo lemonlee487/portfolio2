@@ -1,5 +1,5 @@
 import React from 'react'
-import about from '../images/long-img-full.png'
+import about from '../images/gura-cute.png'
 
 const ImageSection = () => {
   return (
