@@ -3,10 +3,12 @@ import Title from '../components/Title'
 import ImageSection from '../components/ImageSection'
 import SkillsSection from '../components/SkillsSection'
 import ServicesSection from '../components/ServicesSection'
+import WorksSection from '../components/WorksSection'
 import android from '../images/android.png'
 import deeplearn from '../images/deep-learning.png'
 import webdev from '../images/website.png'
 import projectlist from '../data/projectlist'
+import NTTlogo from '../images/NTT_company_logo.png'
 
 const AboutPage = () => {
    return (
@@ -40,6 +42,14 @@ const AboutPage = () => {
                image={webdev}
                title={'Web Design'}
                projects={projectlist[2]}
+            />
+         </div>
+         <Title title={'Work Experience'} span={'Work Experience'} />
+         <div className="works-container">
+            <WorksSection
+               image={NTTlogo}
+               title={'Network Function Virtualization Intern'}
+               works={'Implement P4 programs into switched fabric and in-band-network telemetry projects'}
             />
          </div>
       </div>

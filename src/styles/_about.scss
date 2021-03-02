@@ -1,77 +1,81 @@
-.ImageSection {
-  display: flex;
-  margin-top: 4rem;
-  margin-bottom: 4rem;
+   .ImageSection {
+   display: flex;
+   margin-top: 4rem;
+   margin-bottom: 4rem;
 
-  .img {
-    width: 35%;
-    height: 50vh;
+   .img {
+      width: 35%;
+      height: 50vh;
 
-    img {
+      img {
+         width: 100%;
+         object-fit: cover;
+         height: 100%;
+      }
+   }
+
+   .about-info {
+      margin-left: 2rem;
+      width: 65%;
+
+      h4 {
+         font-size: 2rem;
+      }
+
+      .about-text {
+         padding: 1rem 0;
+      }
+   }
+   }
+
+   .about-details {
+      display: flex;
+
+   p {
+      padding: .3rem 0;
+   }
+
+   .left-section {
+      margin-right: 2.3rem;
+   }
+   }
+
+   .btn {
+   padding: 1rem 2rem;
+   background-color: darkorange;
+   outline: none;
+   border: none;
+   font-family: inherit;
+   font-size: inherit;
+   color: white;
+   text-transform: uppercase;
+   cursor: pointer;
+   letter-spacing: 1px;
+   margin-top: 1rem;
+   position: relative;
+   &::after {
+      content: "";
+      position:absolute;
+      width: 0;
+      height: 0.3rem;
+      left: 0;
+      bottom: 0;
+      background-color: orangered;
+      transition: all 0.4s ease-in-out;
+   }
+   &:hover::after {
       width: 100%;
-      object-fit: cover;
-      height: 100%;
-    }
-  }
+   }
+   }
 
-  .about-info {
-    margin-left: 2rem;
-    width: 65%;
+   .skills-container {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   column-gap: 4rem;
+   row-gap: 3rem;
+   margin: 4rem 0;
+   }
 
-    h4 {
-      font-size: 2rem;
-    }
-
-    .about-text {
-      padding: 1rem 0;
-    }
-  }
-}
-
-.about-details {
-  display: flex;
-
-  p {
-    padding: .3rem 0;
-  }
-
-  .left-section {
-    margin-right: 2.3rem;
-  }
-}
-
-.btn {
-  padding: 1rem 2rem;
-  background-color: darkorange;
-  outline: none;
-  border: none;
-  font-family: inherit;
-  font-size: inherit;
-  color: white;
-  text-transform: uppercase;
-  cursor: pointer;
-  letter-spacing: 1px;
-  margin-top: 1rem;
-  position: relative;
-  &::after {
-    content: "";
-    position:absolute;
-    width: 0;
-    height: 0.3rem;
-    left: 0;
-    bottom: 0;
-    background-color: orangered;
-    transition: all 0.4s ease-in-out;
-  }
-  &:hover::after {
-    width: 100%;
-  }
-}
-
-.skills-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 4rem;
-  row-gap: 3rem;
-  margin: 4rem 0;
-}
+   .works-container {
+      margin: 4rem 0;
+   }

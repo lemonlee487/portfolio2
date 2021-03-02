@@ -35,7 +35,7 @@ export default [
       {
          id: 5,
          ptitle: 'This website',
-         techused: '-React.js (so far)',
+         techused: '-React.js, Bootstrap',
          link: '/',
          description: 'Create my own profolio with newly learned framework(s): React.js'
       },

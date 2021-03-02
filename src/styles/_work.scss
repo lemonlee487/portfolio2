@@ -1,5 +1,5 @@
-.ServicesSection {
-   .service {
+.WorksSection {
+   .work{
       width: 85%;
       background-color: #2e344e;
       border-left: 1px solid #2e344e;
@@ -11,10 +11,10 @@
          border-top: 10px solid #037fff;
       }
 
-      .service-content {
+      .work-content {
          padding: 1rem;
 
-         .s-title {
+         .w-title {
          font-size: 1.8rem;
          font-weight: 500;
          position: relative;
@@ -37,28 +37,3 @@
       }
    }
 }
-
-   .services-container {
-   /* display: flex;
-   justify-content: space-between; */
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   grid-gap: 0rem;
-   margin-top: 4rem;
-   margin-bottom: 4rem;
-   }
-
-   .project-container {
-   padding-bottom: 1rem;
-
-   .s-sub-title {
-      font-size: 1.3rem;
-      font-weight:700;
-      color: rgb(19, 82, 218);
-      text-decoration: none;
-   }
-
-   .s-text {
-      font-style: italic;
-   }
-   }

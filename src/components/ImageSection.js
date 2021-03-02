@@ -15,7 +15,7 @@ const ImageSection = () => {
                as well as some advanced topic such as behavioral biometrics and bioinformatics.
                From time to time, I worked on different personal projects which helped me build confidence on that field.
                As an individual, I am a problem solver and able to work independently without any supervision.
-        </p>
+         </p>
             <div className="about-details">
                <div className="left-section">
                   <p>Full Name</p>
@@ -30,7 +30,9 @@ const ImageSection = () => {
                   <p>:  Coding, Reading Light Novels, Anime</p>
                </div>
             </div>
-            <button className="btn">Download My Resume</button>
+            <form action="https://drive.google.com/file/d/1KfRshVjUjkVWOEqoEivPadfgP01mBue5/view?usp=sharing">
+               <input className="btn" type="submit" value="Download My Resume" />
+            </form>
          </div>
       </div>
    )

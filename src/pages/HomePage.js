@@ -9,14 +9,11 @@ const HomePage = () => {
          <header className="hero">
             <h1 className="hero-text">
                Hi, Im
-          <span> Da Boi</span>
+            <span> Cyrus Lee</span>
             </h1>
             <p className="h-sub-text">
-               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-               Dolores, eius nisi eos odit molestiae possimus ipsa, vero quaerat,
-               alias suscipit atque! Architecto maxime cupiditate
-               aspernatur corporis dolores enim, porro accusamus!
-        </p>
+               You only live once, so just do it.
+            </p>
             <div className="icons">
                <Link className="icon-link">
                   <FontAwesomeIcon icon={faTwitter} className="icon tw" />

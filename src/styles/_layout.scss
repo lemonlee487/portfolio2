@@ -1,22 +1,22 @@
 .App {
-  .sidebar {
-    width: 16%;
-    height: 100vh;
-    background-color: #1a1f27;
-    position: fixed;
-    border-right: 1px solid #2e344e;
-  }
+   .sidebar {
+      width: 16%;
+      height: 100vh;
+      background-color: #1a1f27;
+      position: fixed;
+      border-right: 1px solid #2e344e;
+   }
 
-  .main-content {
-    width: 84%;
-    margin-left: 16%;
-    background-color: #10121B;
-    min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background.png);
-    display: grid;
-    position: relative;
-    .content {
-      margin: 5rem 15rem;
-    }
-  }
+   .main-content {
+      width: 84%;
+      margin-left: 16%;
+      background-color: #10121B;
+      min-height: 100vh;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background.png);
+      display: grid;
+      position: relative;
+      .content {
+         margin: 5rem 15rem;
+      }
+   }
 }
