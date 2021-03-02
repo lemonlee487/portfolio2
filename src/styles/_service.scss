@@ -39,7 +39,25 @@
 }
 
 .services-container {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 0rem;
   margin-top: 4rem;
+}
+
+.project-container {
+  padding-bottom: 1rem;
+
+  .s-sub-title {
+    font-size: 1.3rem;
+    font-weight:700;
+    color: rgb(19, 82, 218);
+    text-decoration: none;
+  }
+
+  .s-text {
+    font-style: italic;
+  }
 }

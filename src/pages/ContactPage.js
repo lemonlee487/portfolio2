@@ -3,12 +3,12 @@ import ContactItem from '../components/ContactItem'
 import Title from '../components/Title'
 
 const ContactPage = () => {
-  return (
-    <div className="ContactPage">
-      <Title title="Send Me a Message" span="Contact" className="c-title" />
-      <ContactItem />
-    </div>
-  )
+   return (
+      <div className="ContactPage">
+         <Title title="Tell me what you think..." span="Contact" className="c-title" />
+         <ContactItem />
+      </div>
+   )
 }
 
 export default ContactPage

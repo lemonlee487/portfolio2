@@ -12,7 +12,7 @@
     margin-left: 16%;
     background-color: #10121B;
     min-height: 100vh;
-    background-image: url(../images/background.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background.png);
     display: grid;
     position: relative;
     .content {
