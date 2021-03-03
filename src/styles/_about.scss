@@ -1,10 +1,10 @@
-   .ImageSection {
+.ImageSection {
    display: flex;
    margin-top: 4rem;
    margin-bottom: 4rem;
 
    .img {
-      width: 35%;
+      width: 100%;
       height: 50vh;
 
       img {
@@ -16,7 +16,7 @@
 
    .about-info {
       margin-left: 2rem;
-      width: 65%;
+      width: 120%;
 
       h4 {
          font-size: 2rem;
@@ -26,9 +26,18 @@
          padding: 1rem 0;
       }
    }
-   }
 
-   .about-details {
+   @media screen and (max-width: 1400px) {
+      flex-direction: column;
+   
+      .about-info {
+         margin-left: 0;
+         margin-top: 1rem;
+      }
+   }
+}
+
+.about-details {
       display: flex;
 
    p {
@@ -38,9 +47,9 @@
    .left-section {
       margin-right: 2.3rem;
    }
-   }
+}
 
-   .btn {
+.btn {
    padding: 1rem 2rem;
    background-color: darkorange;
    outline: none;
@@ -66,16 +75,20 @@
    &:hover::after {
       width: 100%;
    }
-   }
+}
 
-   .skills-container {
+.skills-container {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
    column-gap: 4rem;
    row-gap: 3rem;
    margin: 4rem 0;
-   }
 
-   .works-container {
-      margin: 4rem 0;
+   @media screen and (max-width: 1100px) {
+      grid-template-columns: repeat(1, 1fr);
    }
+}
+
+.works-container {
+      margin: 4rem 0;
+}

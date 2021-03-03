@@ -41,3 +41,9 @@
    html {
    overflow-y: scroll;
    }
+
+@media screen and (max-width: 411px) {
+   html {
+      font-size: 70%;
+   }
+}

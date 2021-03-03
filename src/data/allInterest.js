@@ -34,14 +34,14 @@ export default [
          image: yurucamp,
          title: 'Yuru Camp',
          description: 'It is a light novel',
-         link: 'https://en.wikipedia.org/wiki/That_Time_I_Got_Reincarnated_as_a_Slime'
+         link: 'https://yurucamp.jp/'
       },
       {
          id: 5,
          image: kaguya,
          title: 'Love is War',
          description: 'It is a light novel',
-         link: 'https://en.wikipedia.org/wiki/KonoSuba',
+         link: '',
       },
    ]
 ]

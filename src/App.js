@@ -6,13 +6,23 @@ import PortfolioPage from './pages/PortfolioPage'
 import InterestPage from './pages/InterestPage'
 import ContactPage from './pages/ContactPage'
 import { Switch, Route } from 'react-router-dom'
-
+import gurapixel from './images/gura-pixel.png'
+import { useState } from 'react'
 
 function App() {
+   const [navToggle, setNavToggle] = useState(false);
+
+   const navClick = () => {
+      setNavToggle(!navToggle)
+   }
+
    return (
       <div className="App">
-         <div className="sidebar">
+         <div className={`sidebar ${navToggle ? 'nav-toggle' : ''}`}>
             <NavBar />
+         </div>
+         <div className="nav-btn">
+            <img className="open-nav-img" onClick={navClick} src={gurapixel} alt="" />
          </div>
          <div className="main-content">
             <div className="content">

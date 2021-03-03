@@ -4,6 +4,14 @@
    grid-gap: 2rem;
    margin-bottom: 2rem;
 
+   @media screen and (max-width: 1500px) {
+      grid-template-columns: repeat(3, 1fr);
+   }
+
+   @media screen and (max-width: 1200px) {
+      grid-template-columns: repeat(2, 1fr);
+   }
+
    .interest {
       background-color: #161925;
       width: 100%;

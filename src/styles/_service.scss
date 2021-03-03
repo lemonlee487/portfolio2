@@ -7,6 +7,12 @@
       border-top: 10px solid #191d2b;
       border-bottom: 1px solid #2e344e;
       transition: all .4s ease-in-out;
+
+      @media screen and (max-width: 1400px) {
+         margin-bottom: 1rem;
+         width: 100%;
+      }
+
       &:hover {
          border-top: 10px solid #037fff;
       }
@@ -38,17 +44,19 @@
    }
 }
 
-   .services-container {
-   /* display: flex;
-   justify-content: space-between; */
+.services-container {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
    grid-gap: 0rem;
    margin-top: 4rem;
    margin-bottom: 4rem;
-   }
 
-   .project-container {
+   @media screen and (max-width: 1400px) {
+      grid-template-columns: repeat(1, 1fr);
+   }
+}
+
+.project-container {
    padding-bottom: 1rem;
 
    .s-sub-title {
@@ -61,4 +69,4 @@
    .s-text {
       font-style: italic;
    }
-   }
+}
