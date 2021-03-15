@@ -4,7 +4,7 @@ import jitsuryoku from '../images/novel_3.jpg'
 import yurucamp from '../images/yurucamp.png'
 import kaguya from '../images/kaguya.png'
 
-export default [
+const interestList = [
    [
       {
          id: 1,
@@ -45,3 +45,5 @@ export default [
       },
    ]
 ]
+
+export default interestList;

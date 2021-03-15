@@ -1,4 +1,4 @@
-export default [
+const projectList = [
    [
       {
          id: 1,
@@ -41,3 +41,5 @@ export default [
       },
    ]
 ]
+
+export default projectList;
